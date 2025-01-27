@@ -24,7 +24,7 @@ To run the functions, please send the request(s) with:
 ## 1st Round Challenge
 This session will meet 2 engineers who would ask you questions related to microservices
 e.g.: fault-handling on service communication, idempotencies on HTTP methods
-
+ 
 ## 2nd Round Challenge
 This session involves system design based on the question provided before meeting:
 
@@ -35,8 +35,11 @@ We'll start the interview by asking you to show us on your diagram (by sharing y
 submission use cases.
 In the bulk of the remaining time we’ll introduce some new requirements or modify the system’s operating environment. We’ll discuss if or
 how your initial design would have to change to support that.
+
 Please also write 4-5 sentences explaining how you arrived at your solution. Your description should be concise and speak to the work
 performed. This write up will be assessed as part of the overall architecture challenge
+
+
 The Architecture Challenge: Claims Submission
 You are building a system that processes health insurance claims, where people insured under a benefit plan (members) are submitting
 a receipt (claim) for a medical expense.
@@ -45,6 +48,8 @@ A member uploads an image of the receipt into the system.
 OCR (Optical Character Recognition) is run on the image to extract information like the procedure and the cost.
 A League Claims Agent reviews the claim.
 If approved, money is sent to the person who submitted the claim.
+
+
 Deliverables
 A system diagram that shows system components and how they interact with each other. System components include things
 such as databases and services.
@@ -56,9 +61,13 @@ A list of assumptions made.
 A list of future considerations, if any.
 The above can be stored in a single Google doc and shared with us at least 24 hours before your interview.
 System objectives
+
+
 The primary goal of the system is to review claims and make payouts to the user as fast as possible, regardless of OCR success
 or failure. OCR could take several minutes.
 You can assume hundreds of claim submissions per hour and dozens of agents available to keep reviewing the claims.
+
+
 Additional things to consider
 How does the design handle scaling?
 What are the security risks?
