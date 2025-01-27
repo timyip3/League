@@ -1,3 +1,5 @@
+## This is the take-home assessment from the company League:
+
 To run the code, please execute it with the command "go run ." to run the main method on main.go under the directory League.
 
 To run the functions, please send the request(s) with:
